@@ -16,17 +16,17 @@ function makeGrid() {
 	var w = document.getElementById("input_width").value;
 	// Get the value of the color we have to put on click
 	var color = document.getElementById("colorPicker");
-    let addColor = function (cell) {
+    var addColor = function (cell) {
     	// Put the selected color on click
         cell.addEventListener('click', function () {
             cell.style.backgroundColor = color.value;
         });
-    }
+    };
 	
-    for (let i = 0; i < h; i++) {
-        let row = table.insertRow(i);
-        for (let j = 0; j < w; j++) {
-            let cell = row.insertCell(j);
+    for (var i = 0; i < h; i++) {
+        var row = table.insertRow(i);
+        for (var j = 0; j < w; j++) {
+            var cell = row.insertCell(j);
             cell.addEventListener('click', addColor(cell));
         }
     }
