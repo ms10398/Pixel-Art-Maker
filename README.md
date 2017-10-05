@@ -1,16 +1,12 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+---------------------------
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+- **You can see it [here](https://ms10398.github.io/Pixel-Art-Maker/index.html)**
 
-## Instructions
+### How to Run
 
-To get started, open `designs.js` and start building out the app's functionality.
+- Download Zip File or Clone the Repository
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+- Open `index.html`
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
